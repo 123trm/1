@@ -1,0 +1,377 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Jost';
+    outline: none;
+  }
+
+body {
+    background-color: #ffffff;;
+}  
+
+p {
+    font-family: "Jost";
+}
+
+main {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 15%;
+}
+
+#promo {
+    width: 100%;
+    background-image: url(img/IMAGE.png);
+}
+
+#rec {
+    width: 600px;
+    padding: 150px;
+
+}
+
+#rec h1 {
+    font-family: 'DM Serif Display';
+    font-size: 80px;
+    font-weight: 400;
+    
+}
+
+h3 {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-weight: 350;
+    padding: 20px;
+}
+
+#rec p {
+    font-size: 22px;
+    margin: 20px 0 60px 0;
+}
+
+#preim{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 40px;
+}
+
+.listpr {
+    max-width: 395px;
+    max-height: 400px;
+    padding: 25px;
+    min-width: 250px;
+}
+
+.listpr h3 {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-weight: 400;
+    color: #292F36;
+    padding: 20px 0;
+}
+
+.listpr p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #4D5053;
+    padding: 20px 0;
+}
+
+.listpr a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4D5053;
+    padding: 40px 0;
+    cursor: pointer;
+}
+
+.listpr a:hover {
+    color: #CDA274;
+}
+
+#feedback{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#feedbackTxt {
+    max-width: 592px;
+    min-width: 400px;
+    margin-bottom: 80px;
+}
+
+.h2Zag {
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+
+#feedbackTxt p {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+
+#feedbackImg {
+    max-width: 592px;
+}
+
+#feedbackImg img{
+    border-radius: 0 326px 0 123px;
+}
+
+.cont {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contTxt b {
+    font-size: 24px;
+}
+
+.ots {
+    margin-top: 10px;
+}
+
+.ccc {
+    padding: 80px 0px;
+}
+
+.contTxt {
+    margin-left: 20px;
+}
+
+#about {
+    padding: 80px 40px;
+    border-radius: 70px;
+    background:#F4F0EC;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+#about h2 {
+    padding: 0 20%;
+}
+
+#aboutP {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.cent {
+    text-align: center;
+}
+
+.listpr1 {
+    border-radius: 70px;
+    background:#ffffff;
+    margin: 10px;
+    padding: 40px;
+    min-width: 200px;
+}
+
+.we12 {
+    padding: 30px 0 10px 0;
+    font-size: 20px;
+}
+
+#comp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding: 0 40px;
+    align-items: center;
+}
+
+#comp img {
+    width: 80%;
+}
+
+.rfit {
+    max-width: 580px;
+}
+
+.rec2 {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0px 15%;
+}
+
+.rec1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 0 40px;
+}
+
+.rec4 {
+    max-width: 550px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.rec3 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.rec3 img {
+    padding-right: 20px;
+}
+
+#recent{
+    margin-bottom: 100px;
+}
+
+#col {
+    background-color: #F4F0EC;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    max-width: 1440px;
+}
+
+#col div:not(:last-child){
+    border-right: 2px solid #CDA274;
+}
+
+.col2 {
+    display: flex;
+     justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.gold {
+    font-size: 85px;
+    color: rgba(205, 162, 116, 1);
+    margin-bottom: 10px;
+}
+
+.rec5 {
+    border: 1px solid #E7E7E7;
+    border-radius: 62px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 387px;
+}
+
+#f1 {
+    background-image: url(img/1.png);
+    width: 345px;
+    height: 296px;
+    position:relative;
+}
+
+#f2 {
+    background-image: url(img/2.png);
+    width: 345px;
+    height: 296px;
+    position:relative;
+}
+
+#f3 {
+    background-image: url(img/3.png);
+    width: 345px;
+    height: 296px;
+    position:relative;
+}
+
+#f4 {
+    background-image: url(img/4.png);
+    width: 345px;
+    height: 296px;
+    position:relative;
+}
+
+#f5 {
+    background-image: url(img/5.png);
+    width: 345px;
+    height: 296px;
+    position:relative;
+}
+
+#f6 {
+    background-image: url(img/6.png);
+    width: 345px;
+    height: 296px;
+    position:relative;
+}
+
+#col2 {
+    border-radius: 70px;
+    background-color: #292F36;
+    padding: 60px 60px 200px 60px;
+    margin: 80px 0;
+    position:relative;
+}
+
+#col2 p {
+    color: #ffffff;
+}
+
+.h2Zag1 {
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 1400px) {
+    main {
+        margin: 5%;
+    }
+    footer {
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #preim{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        padding: 0 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #feedback{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        padding: 0 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #aboutP {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rec1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        padding: 0 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
